@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', firstapp.views.home, name="home"),
     path('about/', firstapp.views.about, name="about"),
+    path('result/', firstapp.views.result, name="result"),
 ]
