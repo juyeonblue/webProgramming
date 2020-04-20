@@ -12,3 +12,6 @@ class Blog(models.Model):
 # Django admin에서 "Blog object(1)" 대신 "Title"을 나타내고 싶을 때!!
     def __str__(self):
         return self.title
+
+    def summary(self):
+        return self.body[:100]

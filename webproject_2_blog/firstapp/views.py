@@ -11,3 +11,5 @@ def home(request):
 
     # 쿼리셋과 메소드 표기 방식
     # 모델.퀘리셋(objects).메소드
+
+# def detail(request, blog_id):
