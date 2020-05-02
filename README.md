@@ -27,5 +27,5 @@
 urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)>
 ```   
 ```python
-이럴땐 응용프로그램 -> python3.7 파일 클릭! -> Install Certificates.command 더블 클릭하여 실행   
+해결책: 응용프로그램 -> python3.7 파일 클릭! -> Install Certificates.command 더블 클릭하여 실행!  
 ```
