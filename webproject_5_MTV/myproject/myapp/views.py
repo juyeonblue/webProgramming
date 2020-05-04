@@ -7,4 +7,4 @@ def index(request):
 def lion_list(request):
     lion_list = Lion.objects.all()
 
-    return render(request, 'lions.html', {'lion_list' : lion_list})
+    return render(request, 'myapp/lions.html', {'lion_list' : lion_list})
