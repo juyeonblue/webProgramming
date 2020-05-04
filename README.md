@@ -7,9 +7,11 @@
 |WebProject_1|html화면 만들기|완료|
 |webproject_2_blog|블로그 만들기(classlion 실습)|**진행중**|
 |webproject_3_exchange|환전 화면 - 세미나 2주차|완료|
-|webproject_3_versionUp|환전 - form태그(POST활용)|high version 완료|
+|webproject_3_versionUp|환전 - form태그(POST활용)|high version 완료 / **크롤링 진행중**|
 |webproject_4_wordcount|classlion 실습|완료|
-|webproject_5|블로그(1:N Model 실습) - 세미나 2,3주차|**진행중**|
+|webproject_5||**보류**|
+|webproject_5_MTV|블로그(1:N Model 실습) - 세미나 2,3주차|**진행중**|
+
 <br/>
 <hr/>
 
