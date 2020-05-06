@@ -1,4 +1,5 @@
 from django.shortcuts import render
+
 import pandas as pd
 
 url = 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%99%98%EC%9C%A8%EC%A1%B0%ED%9A%8C'
@@ -8,6 +9,7 @@ df.columns
 df=df[['매매기준율']]
 exchange_list = df.values.tolist()
 exchange_list = sum(exchange_list,[])
+print(exchange_list)
 
 def home(request):
     return render(request,'exchangeapp/home.html')
