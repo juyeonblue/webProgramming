@@ -12,7 +12,7 @@
 |webproject_5||**보류**|
 |webproject_5_MTV|블로그(1:N Model 실습) - 세미나 2,3주차|**진행중**|
 |webproject_blog|bootstrap & media file|완료|
-|webproject_CRUD|CRUD 적용하기|완료|
+|webproject_CRUD|CRUD 적용하기(class, function)|완료|
 
 <br/>
 <hr/>
