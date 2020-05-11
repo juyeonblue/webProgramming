@@ -21,4 +21,3 @@ def create(request):
     blog.save() #blog객체에 해당하는 내용을 저장해라
     return redirect('/blog/' + str(blog.id)) #위의 내용을 이 url로 넘기세요 
     #url은 항상 정수형인데 id는 인트형이므로 str을 사용하여 형 변환한다
-    
