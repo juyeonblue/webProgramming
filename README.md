@@ -11,6 +11,8 @@
 |webproject_4_wordcount|classlion 실습|완료|
 |webproject_5||**보류**|
 |webproject_5_MTV|블로그(1:N Model 실습) - 세미나 2,3주차|**진행중**|
+|webproject_blog|bootstrap & media file|완료|
+|webproject_CRUD|CRUD 적용하기|완료|
 
 <br/>
 <hr/>
@@ -33,4 +35,15 @@ urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certifica
 ```   
 ```python
 해결책: 응용프로그램 -> python3.7 파일 클릭! -> Install Certificates.command 더블 클릭하여 실행!  
-```
+```   
+<br/>
+<br/>
+<hr/>
+
+### 📍<static 파일 사용시>   
+#### 1. static 파일이 사용되는 html파일에 코드 적기
+###### 장고 업뎃 이후로 한줄로 오케이   
+```python   
+{% load static %}
+```   
+
